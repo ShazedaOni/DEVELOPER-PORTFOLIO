@@ -51,17 +51,51 @@ nav a {
 }
 .header {
     background-color: #fff8f3;
+    background-image: url('/image/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 
 }
 .banner{
-    padding: 50px 30px 30px 150px ;
+    padding: 50px 30px 0px 150px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+
+}
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+.banner-description{
+    font-size: 20px;
+    font-weight: 300;
+    color: #474747;
+    margin-top: 3px;
+    margin-bottom: 7%;
+}
+.btn-primary2 {
+    background-color: #fff8f3;
+    border-radius: 5px;
+    color: orangered;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 35px;
+    border: 1.5px solid orangered;
 }
 .banner-content {
-    
+    max-width: 500px;
 }
+
 .banner-img {
     width: 500px;
 }
