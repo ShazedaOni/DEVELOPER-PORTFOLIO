@@ -104,6 +104,7 @@ nav a {
     background-color:#fff8f3;
     border-radius: 10px;
     border: 0;
+    margin: 130px 0;
     margin-top:130px ;
     margin-left: 90px;
     margin-right: 90px;
@@ -144,4 +145,29 @@ main
 }
 .info-description {
     font-size: bolder;
+}
+#I-do{
+    padding: 30px 140px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* box-shadow: 5px 7px 8px whitesmoke; */
+    padding-top: 5px;
+    padding-right: 2%;
+    margin-bottom: 30px;
+    
+}
+.skill {
+    border: 1px solid white;
+    margin-right: 2px;
+    gap: 2px;
+    box-shadow: 2px 2px 3px whitesmoke;
+    padding-left: 5px;
+    padding-right: 1.2px;
+}
+.skill-description{
+
+    color: darkolivegreen;
 }
