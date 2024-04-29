@@ -122,3 +122,26 @@ nav a {
     font-size: 10px;
     
 }
+main
+{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    /* justify-content: center; */
+}
+.about-info-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.about-info {
+    text-align: center;
+}
+.info-title {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.info-description {
+    font-size: bolder;
+}
