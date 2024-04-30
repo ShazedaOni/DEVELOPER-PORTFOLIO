@@ -170,6 +170,8 @@ main section {
     box-shadow: 2px 2px 3px whitesmoke;
     padding-left: 5px;
     padding-right: 1.2px;
+    background-color: transparent;
+    
 
 }
 .skill-description{
