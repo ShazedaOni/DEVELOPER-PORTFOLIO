@@ -170,7 +170,7 @@ main section {
     box-shadow: 2px 2px 3px whitesmoke;
     padding-left: 5px;
     padding-right: 1.2px;
-    background-color: transparent;
+   
     
 
 }
@@ -196,10 +196,23 @@ main section {
 .resume-item-title{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkslategrey;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 20px;
 }
 .resume-col-title {
     font-size: 30px ;
     font-weight: 700;
     text-decoration: overline;
+}
+
+.download-cv {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    background-color: whitesmoke;
+   padding-top: 100px;
+    padding-bottom: 100px;
 }
