@@ -51,7 +51,7 @@ nav a {
 }
 .header {
     background-color: #fff8f3;
-    background-image: url('../image/header_bg.png');
+    background-image: url('header_bg.png');
     /* background-color: transparent; */
     background-repeat: no-repeat;
     background-position: bottom right;
