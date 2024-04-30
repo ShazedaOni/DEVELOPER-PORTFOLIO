@@ -224,3 +224,7 @@ footer {
     gap: 100px;
     justify-content: space-evenly;
 }
+.footer-column {
+    width: 50%;
+    
+}
