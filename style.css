@@ -177,6 +177,7 @@ main section {
 .skill-description{
 
     color: darkolivegreen;
+    
 }
 .resume-container{
     display: flex;
@@ -243,4 +244,20 @@ footer {
     margin-top: 25px;
     gap: 5px;
     margin-left: 220px;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    #I-do{
+        padding: 20px;
+    }
+    .resume-container {
+        flex-direction: column;
+    }
+
+    
 }
