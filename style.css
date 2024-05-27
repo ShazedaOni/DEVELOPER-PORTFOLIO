@@ -249,15 +249,51 @@ footer {
     display: none;
 }
 @media screen and (max-width: 576px) {
-    .skills-container{
+    .header{
+        background-image: none;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+        padding:5px 10px ;
+        font-size: 12px;
+    }
+    nav>ul{
+        gap: 20px;
+    }
+    .skills-container, .about-info-container, .banner, nav, .nav>ul{
         flex-direction: column;
     }
-    #I-do{
+    #I-do, .banner{
         padding: 20px;
     }
     .resume-container {
         flex-direction: column;
     }
 
+    footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .footer-form input[type="text"], .footer-form  input[type="email"] , textarea {
+        width: 85%;
+    }
+    .about{
+        padding: 10px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:992px){
+    footer, .about {
+        padding: 30px;
+        flex-direction: column;
+    }
+    .footer-column{
+        width: 90%;
+    }
     
 }
